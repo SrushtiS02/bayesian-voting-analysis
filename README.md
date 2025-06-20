@@ -1,25 +1,52 @@
+# 🗳️ Bayesian Voting Analysis
 
-# Bayesian Regression on US Depression & Voting Patterns
+This project explores the relationship between **depression prevalence** and **Republican voting patterns** across US counties using **Bayesian regression modeling**. Developed as part of the *Applied Statistical Modelling* module at Trinity College Dublin.
 
-This project explores the relationship between county-level depression rates and voting behavior in the United States using both classical and Bayesian regression models.
+---
 
-## 📊 Dataset
-- `USvotes.csv`: Includes features such as `per_gop` (Republican vote %), `Crude.Prevalence.Estimate` (depression %), and `race` (proportion White).
-- Source: [Manually curated public dataset]
+## 📊 Objective
 
-## 🔍 Analysis Performed
-- Data exploration with `tidyverse`
-- Linear and multiple regression modeling
+To investigate how mental health and race demographics influence voting behavior using interpretable Bayesian statistics.
+
+---
+
+## 📂 Project Structure
+
+- `scripts/analysis.R` – Core code performing EDA, linear models, and Bayesian regression using `brms`.
+- `data/USvotes.csv` – Cleaned dataset including mental health and voting data per US county.
+- `plots/` – Visualizations of regression estimates and uncertainty.
+
+---
+
+## 🔍 Techniques Used
+
 - Bayesian modeling with `brms`
-- Visualizations using `ggplot2` and posterior estimates
+- Visualization with `ggplot2` & `bayesplot`
+- Data cleaning and wrangling using `tidyverse`
+- Interpretation of posterior distributions and credible intervals
 
-## 🧠 Key Tools & Libraries
-- R, tidyverse, brms, bayesplot, ggplot2, broom
+---
 
-## 📈 Result Summary
-We observed:
-- A slight negative correlation between depression prevalence and Republican vote share.
-- Race (White proportion) was positively associated with Republican votes.
-- Bayesian inference provided clearer uncertainty estimates with credible intervals.
+## 📈 Key Outcomes
 
-## 📂 Repository Structure
+- Built interpretable Bayesian regression models with credible intervals
+- Visualized the influence of depression and race on GOP vote share
+- Developed insights into how social factors may impact political leanings
+
+---
+
+## 💡 Skills Demonstrated
+
+- R programming
+- Bayesian inference
+- Data storytelling
+- Statistical modeling & communication
+
+---
+
+## 🔗 Author
+
+**Srushti Surpur**  
+📧 [surpurs@tcd.ie](mailto:surpurs@tcd.ie)  
+🔗 [LinkedIn](https://www.linkedin.com/in/srushtisurpur)  
+🌐 [GitHub](https://github.com/SrushtiS02)
